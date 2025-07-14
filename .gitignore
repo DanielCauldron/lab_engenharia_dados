@@ -1,0 +1,22 @@
+# Ambiente virtual Python
+env/
+.venv/
+
+# Arquivos de cache e temporários
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+.DS_Store
+
+# Dados gerados (opcional, ajuste conforme necessidade)
+data/raw/
+data/processed/
+
+# Credenciais e arquivos sensíveis
+gcp/service_account.json
+.env
+
+# Outros arquivos de sistema
+Thumbs.db

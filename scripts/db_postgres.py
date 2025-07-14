@@ -1,0 +1,10 @@
+import psycopg2
+
+
+def get_conexao_postgres():
+    return psycopg2.connect(
+        host='localhost',
+        dbname='lab_dados',
+        user='postgres',
+        password='daniel.123'
+    )
