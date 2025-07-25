@@ -17,3 +17,5 @@ CREATE TABLE IF NOT EXISTS pedidos (
     preco NUMERIC(10, 2) NOT NULL,
     data_pedido TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
+ALTER TABLE clientes ADD CONSTRAINT email_unico UNIQUE(email);

@@ -1,6 +1,6 @@
 from pathlib import Path
 import pandas as pd
-from db_postgres import conectar_db
+from db_postgres import get_conexao_postgres
 import psycopg2
 
 
@@ -12,8 +12,8 @@ def carregar_clientes_para_postgres(csv_path: Path) -> None:
         return
 
     df = pd.read_csv(csv_path)
+    conn = get_conexao_postgres()
 
-    conn = conectar_db()
     cursor = conn.cursor()
 
     try:
