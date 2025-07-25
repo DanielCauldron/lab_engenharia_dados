@@ -8,42 +8,34 @@ Desenvolver e demonstrar habilidades essenciais para atuar como Engenheiro de Da
 Python 3.10
 
 Pandas
-
 Faker (simulação de dados)
-
 PostgreSQL
-
 psycopg2
-
 Jupyter Notebooks
-
 SQL
 
 Ambiente Linux (WSL) + VSCode
 
 ## 📂 Estrutura do Projeto
-bash
-Copiar
-Editar
-
 lab_engdados/
 ├── data/
-│ ├── raw/ # Dados brutos
-│ └── processed/ # Dados transformados
-├── env/ # Ambiente virtual Python
-├── notebooks/ # Notebooks de exploração
-│ ├── exploracao_clientes.ipynb
-│ └── exploracao_pedidos.ipynb
-├── requirements.txt # Dependências
-├── scripts/ # Scripts principais
-│ ├── gerar_dados_faker.py
-│ ├── transform_clientes.py
-│ ├── transform_pedidos.py
-│ ├── load_clientes_postgres.py
-│ ├── load_pedidos_postgres.py
-│ └── db_postgres.py
-└── sql/
-└── create_tables.sql # Script de criação de tabel
+│   ├── raw/                   # Dados brutos
+│   └── processed/             # Dados transformados
+├── env/                       # Ambiente virtual Python
+├── notebooks/                 # Notebooks de exploração
+│   ├── exploracao_clientes.ipynb
+│   └── exploracao_pedidos.ipynb
+├── requirements.txt           # Dependências
+├── scripts/                   # Scripts principais
+│   ├── gerar_dados_faker.py
+│   ├── transform_clientes.py
+│   ├── transform_pedidos.py
+│   ├── load_clientes_postgres.py
+│   ├── load_pedidos_postgres.py
+│   └── db_postgres.py
+├── sql/
+│   └── create_tables.sql      # Script de criação de tabelas
+└── export_postgres_csv.py     # Exportação de dados
 
 🔄 Pipeline de Dados
 Geração de Dados Sintéticos
