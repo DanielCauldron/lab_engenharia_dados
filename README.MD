@@ -1,23 +1,31 @@
-#💡 Laboratório de Engenharia de Dados
+# Laboratório de Engenharia de Dados
 Este repositório é um laboratório prático de Engenharia de Dados, com foco em simular o ciclo completo de ingestão, transformação, armazenamento e análise de dados.
 
-##🎯 Objetivo: Desenvolver e demonstrar habilidades essenciais para atuar como Engenheiro de Dados Júnior, utilizando ferramentas e práticas adotadas no mercado.
+## 🎯 Objetivo: 
+Desenvolver e demonstrar habilidades essenciais para atuar como Engenheiro de Dados Júnior, utilizando ferramentas e práticas adotadas no mercado.
 
-##🛠️ Tecnologias Utilizadas
- **Python 3.10**
-- **Pandas**
-- **Faker** (simulação de dados)
-- **PostgreSQL**
-- **psycopg2**
-- **Jupyter Notebooks**
-- **SQL**
-- **Ambiente Linux (WSL) + VSCode**
+🛠️ Tecnologias Utilizadas
+Python 3.10
 
-##📂 Estrutura do Projeto
+Pandas
+
+Faker (simulação de dados)
+
+PostgreSQL
+
+psycopg2
+
+Jupyter Notebooks
+
+SQL
+
+Ambiente Linux (WSL) + VSCode
+
+## 📂 Estrutura do Projeto
 bash
 Copiar
 Editar
-.
+
 lab_engdados/
 ├── data/
 │ ├── raw/ # Dados brutos
@@ -74,7 +82,7 @@ Uso de notebooks para análises exploratórias
 **Contato:**  
 [LinkedIn](https://linkedin.com/in/daniel-cauldron)  
 [GitHub](https://github.com/DanielCauldron?tab=repositories)
-
+ 
 ---
 
 > _Projeto em constante evolução. Sinta-se à vontade para acompanhar, contribuir ou entrar em contato!_
