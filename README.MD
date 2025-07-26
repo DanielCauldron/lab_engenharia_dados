@@ -24,26 +24,39 @@ lab_engdados/
 ├── data/
 
 │ ├── raw/ # Dados brutos
+
 │ └── processed/ # Dados transformados
+
 ├── env/ # Ambiente virtual Python
+
 ├── notebooks/ # Notebooks de exploração
+
 │ ├── exploracao_clientes.ipynb
+
 │ └── exploracao_pedidos.ipynb
+
 ├── requirements.txt # Dependências
+
 ├── scripts/ # Scripts principais
+
 │ ├── gerar_dados_faker.py
+
 │ ├── transform_clientes.py
+
 │ ├── transform_pedidos.py
+
 │ ├── load_clientes_postgres.py
+
 │ ├── load_pedidos_postgres.py
+
 │ └── db_postgres.py
+
 ├── sql/
+
 │ └── create_tables.sql # Script de criação de tabelas
+
 └── export_postgres_csv.py # Exportação de dados
 
-markdown
-Copiar
-Editar
 
 ## 🔄 Pipeline de Dados
 
@@ -73,9 +86,7 @@ Notebooks com análises iniciais dos dados transformados.
 
 ## 📫 Contato
 
-- [LinkedIn](https://linkedin.com/in/daniel-cauldron)  
-- [GitHub](https://github.com/DanielCauldron?tab=repositories)  
-
----
+ [LinkedIn](https://linkedin.com/in/daniel-cauldron)  
+ [GitHub](https://github.com/DanielCauldron?tab=repositories)  
 
 > _Projeto em constante evolução. Sinta-se à vontade para acompanhar, contribuir
