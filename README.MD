@@ -20,7 +20,9 @@ Desenvolver e demonstrar habilidades essenciais para atuar como Engenheiro de Da
 ## 📂 Estrutura do Projeto
 
 lab_engdados/
+
 ├── data/
+
 │ ├── raw/ # Dados brutos
 │ └── processed/ # Dados transformados
 ├── env/ # Ambiente virtual Python
